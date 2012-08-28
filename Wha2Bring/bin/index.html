@@ -1,0 +1,360 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+	<title>FacebookTutorial</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="language" content="en" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+  <style media="screen" type="text/css">
+	.myclass{
+		float:right;
+		/*background-color:#006600;*/
+		position:absolute;
+		right:-38px;
+		top:-39px;
+	}
+  </style>
+  
+
+	<style type="text/css">
+		body { margin:0px 0px; }
+	</style>
+    <link rel="stylesheet" href="css/main.css" type="text/css" />
+    <!--<link rel="stylesheet" href="http://playfulplay.com.mx/Prueba/css/main.css" type="text/css" />-->
+</head>
+<body>
+	<div id="fb-root"></div>
+    
+    <div id="main" style="margin-left:-41px;">
+  <div id="barraSuperior">
+    <ul id="topnav">
+      <li id="topnav-1"><a href="#top1" title="jugar">Jugar</a></li>
+      <li id="topnav-2"><a href="#top2" title="regalos">Enviar Regalos</a></li>
+      <li id="topnav-3"><a href="#top3" title="amigos" onclick="insertarAmigos();">Invitar Amigos</a></li>
+      <li id="topnav-4"><a href="#top4" title="tdj">Comprar TDJ</a></li>
+      <li id="topnav-5"><a href="#top5" title="puntuaciones">Puntuaciones</a></li>
+      <li id="topnav-6"><a href="#top6" title="contacto">Contacto</a></li>
+      <li id="topnav-7"><a href="#top7" title="ayuda">Ayuda</a></li>
+      <li id="topnav-8"><a href="#top8" title="idiomas">Idiomas</a></li>
+    </ul>
+  </div>
+</div>
+    
+<div class="tab_container">
+     <div id="content-wrapper">
+    	<div id="data-wrapper">
+		
+         </div>
+	</div>
+ <div id="top1" class="tab_content">
+        <div id="fondojuego">
+        <!--Content Flash Game-->
+        <div id="altContent" style="position:relative;">
+
+		<div id="flashContent" style="position:relative;">
+                <param name="movie" value="WH.swf" />
+				<!--[if !IE]>-->
+				<object type="application/x-shockwave-flash" data="WH.swf" width="760" height="600">
+				<!--<![endif]-->
+					<a href="http://www.adobe.com/go/getflashplayer">
+						<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+					</a>
+				<!--[if !IE]>-->
+				</object>
+				<!--<![endif]-->
+       	</div> 
+        </div>
+         <!--Content-->
+         </div>
+    </div>
+    <div id="top2" class="tab_content">
+       <!--Content Enviar Regalos-->
+       <div id="fondoRegalo">
+       		<div id="ventanaObjetos">
+            	<div class="objetos">
+                	<div class="objetoBg">
+                               <img src="gifts/regaloSorpresa.png" width="80" height="80" />
+                    </div>
+                    <br>Regalo Sorpresa
+                    <form>
+						<input type="radio" name="fbObjeto1" value="Objeto1" onclick="validarCheckBox();" />
+					</form>
+                </div>
+              <div class="objetos">
+                	<div class="objetoBg">
+                               <img src="gifts/energia1x-big.png" width="80" height="80" />
+                    </div>
+                    <br>+1 Energ&iacute;a
+                    <form>
+						<input type="radio" name="fbObjeto2" value="Objeto2" onclick="validarCheckBox();"/>
+					</form>
+                </div>
+              <div class="objetos">
+                	<div class="objetoBg">
+                               <img src="gifts/energia2x-big.png" width="80" height="80" />
+                    </div>
+                   <br>+3 Energ&iacute;a
+                    <form>
+						<input type="radio" name="fbObjeto3" value="Objeto3" />
+					</form>
+                </div>
+              <div class="objetos">
+                	<div class="objetoBg">
+                               <img src="gifts/energia3x-big.png" width="80" height="80" />
+                    </div>
+                    <br>+5 Energ&iacute;a
+                    <form>
+						<input type="radio" name="fbObjeto4" value="Objeto4" />
+					</form>
+                </div>
+                <div class="objetos">
+                	<div class="objetoBg">
+                               <img src="gifts/imaginacion1x-big.png" width="80" height="80" />
+                    </div>
+                    <br>+1 Imaginaci&oacute;n
+                    <form>
+						<input type="radio" name="fbObjeto5" value="Objeto5" />
+					</form>
+                </div>
+                <div class="objetos">
+                	<div class="objetoBg">
+                               <img src="gifts/imaginacion2x-big.png" width="80" height="80" />
+                    </div>
+                    <br>+3 Imaginaci&oacute;n
+                    <form>
+						<input type="radio" name="fbObjeto6" value="Objeto6" />
+					</form>
+                </div>
+                <div class="objetos">
+                	<div class="objetoBg">
+                               <img src="gifts/imaginacion3x-big.png" width="80" height="80" />
+                    </div>
+                     <br>+5 Imaginaci&oacute;n
+                    <form>
+						<input type="radio" name="fbObjeto7" value="Objeto7" />
+					</form>
+                </div>
+                <div class="objetos">
+                		<img src="images/objeto_00.png" width="116" height="109" />
+                    Nombre del Objecto
+                    <form>
+						<input type="radio" name="fbObjeto8" value="Objeto8" />
+					</form>
+                </div>
+                <div class="objetos">
+                		<img src="images/objeto_00.png" width="116" height="109" />
+                    Nombre del Objecto
+                    <form>
+						<input type="radio" name="fbObjeto9" value="Objeto9" />
+					</form>
+                </div>
+                <div class="objetos">
+                		<img src="images/objeto_00.png" width="116" height="109" />
+                    Nombre del Objecto
+                    <form>
+						<input type="radio" name="fbObjeto10" value="Objeto10" />
+					</form>
+                </div>
+                <div class="objetos">
+                		<img src="images/objeto_00.png" width="116" height="109" />
+                    Nombre del Objecto
+                    <form>
+						<input type="radio" name="fbObjeto11" value="Objeto11" />
+					</form>
+                </div>
+                <div class="objetos">
+                		<img src="images/objeto_00.png" width="116" height="109" />
+                    Nombre del Objecto
+                    <form>
+						<input type="radio" name="fbObjeto12" value="Objeto12" />
+					</form>
+                </div>
+            </div>
+            <div id="enviarRegaloBtn"></div><div id="cancelarBtn"></div>
+       </div>
+         <!--Content-->
+    </div>
+    <div id="top3" class="tab_content">
+       <!--Content Enviar Regalos-->
+      <div id="fondoInvitarAmigos">
+      		<div id="ventanaInvitacion">
+                <div id="objetoEnviado">
+                    <img src="images/objetoEnviado.png" width="218" height="215" />
+                    Texto Dinámico: Invita a tus amigos y recibe recompensas. <br  /><br  />
+                    <strong>Texto Dinámico: Elige a los amigos a los que quieres invitar.</strong>
+                    
+                </div>
+                <div id="ventanaForma">
+                	<div id="labelFriend" class="invitarTextType">
+                    	<form>
+                        	<input type="text" name="firstname" value="Type a friends Name Here" size="43" onblur="if (this.value == '') {this.value = 'Type a friends Name Here';}" onfocus="if (this.value == 'Type a friends Name Here') {this.value = '';}"/>
+                        </form>
+                    </div>
+                    <div id="checkBoxFriend" class="invitarTextType">
+                    	<form>
+                        	<!--<div class="a1"><input id="a1" type="checkbox" name="Amigo1" value="321" onclick="agregarAmigos(this);"/> Amigo1<br /></div>
+                           <div class="a2"><input id="a2" type="checkbox" name="Amigo2" value="543245" onclick="agregarAmigos(this);"/> Amigo2<br /></div>
+                           <div class="a3"><input id="a3" type="checkbox" name="Amigo3" value="65454" onclick="agregarAmigos(this);"/> Amigo3<br /></div>
+                           <div class="a4"><input id="a4" type="checkbox" name="Amigo4" value="654363" onclick="agregarAmigos(this);"/> Amigo4<br /></div>
+                           <div class="a5"><input id="a5" type="checkbox" name="Amigo5" value="5476765" onclick="agregarAmigos(this);"/> Amigo5<br /></div>
+                           <div class="a6"><input id="a6" type="checkbox" name="Amigo6" value="547657" onclick="agregarAmigos(this);"/> Amigo6<br /></div>
+                           <div class="a7"><input id="a7" type="checkbox" name="Amigo7" value="656751" onclick="agregarAmigos(this);"/> Amigo7<br /></div>
+                           <div class="a8"><input id="a8" type="checkbox" name="Amigo8" value="634765" onclick="agregarAmigos(this);"/> Amigo8<br /></div>
+                           <div class="a9"><input id="a9" type="checkbox" name="Amigo9" value="654523" onclick="agregarAmigos(this);"/> Amigo9<br /></div>
+                           <div class="a10"><input id="a10" type="checkbox" name="Amigo10" value="4563" onclick="agregarAmigos(this);"/> Amigo10<br /></div>
+                           <div class="a11"><input id="a11" type="checkbox" name="Amigo11" value="65464" onclick="agregarAmigos(this);" /> Amigo11<br /></div>-->
+                        </form>
+                    </div>
+                    <div id="friendSelected" class="invitarTextType">
+                    <span id="defaultText">Nobody is selected</span>
+                    	<ul style="margin-left:-35px;">
+                        </ul>
+                    </div>
+                    <div id="enviarInvitacionBtn"></div><div id="cancelarInvitacionBtn"></div>
+                </div>
+            </div>
+      </div>
+         <!--Content-->
+    </div>
+   <div id="top4" class="tab_content">
+       <!--Content Comprar Tortas-->
+        <div id="fondoTortas">
+       		<div id="ventanaTorta">
+                <div class="precioTorta" style="margin-top:30px;">
+                    <img src="images/preciosTorta.png" width="65" height="31"  />
+                    <div class="preciosDin"><span class="tortas-num">20</span> <span class="signo-igual">=</span> <span class="precio-fx">20</span><img class="facebook-mon" src="images/facebookMoney.png" width="32" height="29"  /><span class="precio-facebook">$ xxx.xxx USD</span></div>
+                </div>
+                <div class="comprarTortasBtn" style="margin-top:30px;">
+                </div>
+                <div class="precioTorta">
+                    <img src="images/preciosTorta.png" width="65" height="31"  />
+                    <div class="preciosDin"><span class="tortas-num">55</span> <span class="signo-igual">=</span> <span class="precio-fx">50</span><img class="facebook-mon" src="images/facebookMoney.png" width="32" height="29"  /><span class="precio-facebook">$ xxx.xxx USD</span></div>
+                </div>
+                <div class="comprarTortasBtn">
+                </div>
+                <div class="precioTorta">
+                    <img src="images/preciosTorta.png" width="65" height="31"  />
+                    <div class="preciosDin"><span class="tortas-num">240</span> <span class="signo-igual">=</span> <span class="precio-fx" >200</span><img class="facebook-mon" src="images/facebookMoney.png" width="32" height="29"  /><span class="precio-facebook">$ xxx.xxx USD</span></div>
+                </div>
+                <div class="comprarTortasBtn">
+                </div>
+                <div class="precioTorta">
+                    <img src="images/preciosTorta.png" width="65" height="31"  />
+                    <div class="preciosDin"><span class="tortas-num">675</span> <span class="signo-igual">=</span> <span class="precio-fx">500</span><img class="facebook-mon" src="images/facebookMoney.png" width="32" height="29"  /><span class="precio-facebook">$ xxx.xxx USD</span></div>
+                </div>
+                <div class="comprarTortasBtn">
+                </div>
+                <div class="precioTorta">
+                    <img src="images/preciosTorta.png" width="65" height="31"  />
+                    <div class="preciosDin"><span class="tortas-num">1500</span> <span class="signo-igual">=</span> <span class="precio-fx">1000</span><img class="facebook-mon" src="images/facebookMoney.png" width="32" height="29"  /><span class="precio-facebook">$ xxx.xxx USD</span></div>
+                </div>
+                <div class="comprarTortasBtn">
+                </div>
+                <div id="textoTorta">
+                	Todas las compras están sujetas a <a href="#">Términos de Servicio</a>
+                </div>
+                <div id="celular-box"><a href="#" onclick="compraMovil();"></a></div>
+           </div>
+       </div>
+         <!--Content-->
+    </div>
+    <div id="top5" class="tab_content">
+       <!--Content Enviar Regalos-->
+       <div id="fondoPuntos">
+       		<div id="ventanaPuntos">
+            	<div class="dataNums" style="border-bottom:#FFF 1px solid;">
+                	<table cellpadding="0" cellspacing="0" style="border:none">
+                        <tr>
+                            <th>POSICIÓN</th><th>NOMBRE</th><th>PUNTOS</th>
+                        </tr>
+                    </table>
+                </div>
+            	<table id="scores" cellpadding="0" cellspacing="0">
+                    <tr>
+                    	<td width="230">1</td><td width="213" class="userNom">Juan Perez</td><td width="194">1000000</td>
+                    </tr>
+                    <tr>
+                    	<td>1</td><td class="userNom">Juan Perez</td><td>1000000</td>
+                    </tr>
+                    <tr>
+                    	<td>1</td><td class="userNom">Juan Perez</td><td>1000000</td>
+                    </tr>
+                    <tr>
+                    	<td>1</td><td class="userNom">Juan Perez</td><td>1000000</td>
+                    </tr>
+                    <tr>
+                    	<td>1</td><td class="userNom">Juan Perez</td><td>1000000</td>
+                    </tr>
+                    <tr>
+                    	<td>1</td><td class="userNom">Juan Perez</td><td>1000000</td>
+                    </tr>
+                    <tr>
+                    	<td>1</td><td class="userNom">Juan Perez</td><td>1000000</td>
+                    </tr>
+                    <tr>
+                    	<td>1</td><td class="userNom">Juan Perez</td><td>1000000</td>
+                    </tr>
+                    <tr>
+                    	<td>1</td><td class="userNom">Juan Perez</td><td>1000000</td>
+                    </tr>
+                    <tr>
+                    	<td>1</td><td class="userNom">Juan Perez</td><td>1000000</td>
+                    </tr>
+                </table>
+                <div class="dataNums" style="border-top:#dedede 1px solid;">
+                	<div id="ranking">
+                    <span id="rankingTit">Ranking: </span><img src="images/estrella.png" width="34" height="30"  /><span id="rankingNum">100</span>
+                    </div>
+                    <div id="paginacion">
+                    	<table>
+                        	<tr>
+                           	  <td>Pág <span id="paginaActual">1</span>/<span id="paginasRestantes">36</span></td>
+                                <td><a id="flechaPrev" href="#" onclick="prev();"><img src="images/prev.png" width="21" height="20"  /></a><a id="flechaPrevs" href="#" onclick="prevSec();"><img src="images/prevFlecha.png" width="19" height="20"  /></a></td>
+                              <td><a id="primero" href="#" onclick="selectPag(this);">1</a> | <a id="segundo" href="#"  onclick="selectPag(this);">2</a> | <a id="tercero" href="#"  onclick="selectPag(this);">3</a> | <a id="cuarto" href="#"  onclick="selectPag(this);">4</a> | <a id="quinto" href="#" onclick="selectPag(this);">5</a></td>
+                                <td><a id="flechaNexts" href="#" onclick="nextSec();"><img src="images/nextFlecha.png" width="19" height="20"  /></a><a id="flechaNext" href="#" onclick="next();"><img src="images/next.png" width="21" height="20"  /></a></td>
+                            </tr>
+                        </table>
+                    </div>
+              </div>
+           </div>
+       </div>
+         <!--Content-->
+    </div>
+    <div id="top6" class="tab_content">
+       <!--Content Enviar Regalos-->
+         <!--Content-->
+    </div>
+    <div id="top7" class="tab_content">
+       <!--Content Enviar Regalos-->
+         <!--Content-->
+    </div>
+    <div id="top8" class="tab_content">
+       <!--Content Enviar Regalos-->
+         <!--Content-->
+    </div>
+</div>
+</div>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" type="text/javascript"></script>
+  	<script src="js/tabs.js" type="text/javascript"></script>
+	<script type="text/javascript" src="http://connect.facebook.net/en_US/all.js"></script>	
+	<script src="js/swfobject.js" type="text/javascript"></script>
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/jquery.livesearch.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		//swfobject.embedSWF("Elchavo.swf", "altContent", "760", "600", "10.0.0", "expressInstall.swf", flashvars, params, attributes);
+		
+		if(!initGame()){
+		setGame(true);
+		swfobject.embedSWF("WH.swf", "flashContent", "760", "600", "8.0", null, null, {wmode:'opaque', allowScriptAccess: 'always' }, {id:'flashContent',name:'flashContent', styleclass: 'myclass'});
+		}
+	</script>
+    
+  
+    
+<script type="text/javascript">
+swfobject.registerObject("FlashID");
+</script>.
+</body>
+</html>

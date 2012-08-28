@@ -1,0 +1,3479 @@
+/* Merge BEGIN*/
+@charset "UTF-8";
+/* v1.0 | 20080212 */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after { content: ''; content: none; }
+/* remember to define focus styles! */
+:focus { outline: 0; }
+/* remember to highlight inserts somehow! */
+ins { text-decoration: none; }
+del { text-decoration: line-through; }
+/* tables still need 'cellspacing="0"' in the markup */
+table { border-collapse: collapse; border-spacing: 0; }
+/* Background-Styles */
+body { margin: 0px; padding: 0px; background: #ffffff; font: 11px/17px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: #636866;
+}
+body { margin:0px 0px; }
+.myclass{
+	float:right;
+	/*background-color:#006600;*/
+	position:absolute;
+	right:-38px;
+	top:-39px;
+}
+.ie7 .myclass{
+	float:right;
+	/*background-color:#006600;*/
+	position:absolute;
+	right:38px;
+	top:-39px;
+}
+#barraSuperior
+{
+	left: 20px;
+    position: relative;
+}
+.estampaText
+{
+    font-family: Verdana,sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    height: 33px;
+    width: 120px;
+    color: #822036;
+    text-shadow: #fee4c3 0 1px 0;
+   
+}
+.testampaText
+{
+    font-family: Verdana,sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    height: 18px;
+    width: 70px;
+    color: #822036;
+    text-shadow: #fee4c3 0 1px 0;
+   
+}
+.nestampaText
+{
+    font-family: Verdana,sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    height: 19px;
+    width: 35px;
+    color: #fe9b4f;
+    text-shadow: #fee4c3 0 1px 0;
+   
+}
+#banner12{
+				background-image:url(../images/fb_ban_tarjetas5.png);
+                background-repeat:no-repeat;
+                width:760px;
+                height:75px;
+                position:relative;
+                float:left;
+				left:40px;
+                margin-bottom:10px;
+				margin-top:10px;
+				cursor:pointer;
+}
+
+.ie7 #banner12{
+				background-image:url(../images/fb_ban_tarjetas4.png);
+                background-repeat:no-repeat;
+                width:760px;
+                height:75px;
+                position:relative;
+                float:left;
+                margin-bottom:10px;
+				margin-top:10px;
+				left:0px;
+				cursor:pointer;
+}
+
+.ie8 #banner12{
+				background-image:url(../images/fb_ban_tarjetas4.png);
+                background-repeat:no-repeat;
+                width:760px;
+                height:75px;
+                position:relative;
+                float:left;
+				left:40px;
+                margin-bottom:10px;
+				margin-top:10px;
+				cursor:pointer;
+}
+
+.ie9 #banner12{
+				background-image:url(../images/fb_ban_tarjetas4.png);
+                background-repeat:no-repeat;
+                width:760px;
+                height:75px;
+                position:relative;
+                float:left;
+				left:40px;
+                margin-bottom:10px;
+				margin-top:10px;
+				cursor:pointer;
+				
+}
+
+#bs1{
+				background-image:url(../images/ban_game_carrera.png);
+                background-repeat:no-repeat;
+                width:250px;
+                height:160px;
+                position:relative;
+                float:left;
+				left:0px;
+                top:-30px;
+				cursor:pointer;
+}     
+#bs2{
+				background-image:url(../images/ban_game_pesas.png);
+                background-repeat:no-repeat;
+                width:250px;
+                height:160px;
+                position:relative;
+                float:left;
+				left:5px;
+				top:-30px;
+				cursor:pointer;		
+}
+#bs3{
+				background-image:url(../images/ban_game_arco.png);
+                background-repeat:no-repeat;
+                width:250px;
+                height:160px;
+                position:relative;
+                float:left;
+				left:10px;
+				top:-30px;
+			
+}
+
+#bs4{
+				background-image:url(../images/8misionSemanal.png);
+                background-repeat:no-repeat;
+                width:250px;
+                height:160px;
+                position:relative;
+                float:left;
+				left:10px;
+				top:-30px;
+				
+}
+#botonesInferiores{
+				height:480px; 
+				 margin-bottom:10px;
+				 margin-top:10px;
+				 top:760px;
+				 position:absolute;
+}
+
+.ie7 #botonesInferiores{
+				height:480px; 
+				 margin-bottom:10px;
+				 margin-top:10px;
+				 top:0px;
+				 position:relative;
+				 
+}
+.ie8 #botonesInferiores{
+				height:480px; 
+				 margin-bottom:10px;
+				 margin-top:10px;
+				 top:760px;
+				 position:absolute;
+				
+}
+.ie9 #botonesInferiores{
+				height:480px; 
+				 margin-bottom:10px;
+				 margin-top:10px;
+				 top:760px;
+				 position:absolute;
+				 
+}
+
+#main{
+	margin-left:-41px;
+}
+#altContent{
+	position: relative;
+}
+#flashContent{
+	position: relative;
+}
+#friendSelected-ul{
+	margin-left:-35px;
+}
+#fondoTortas .precioTorta{
+	margin-top:30px;
+}
+.precioTorta-img{
+	width: 65px;
+	height: 31px;
+}
+#fondoTortas .facebook-mon{
+	width: 32px;
+	height: 29px;
+}
+
+#fondoPuntos .dataNums{
+	border-bottom:#FFF 1px solid;
+}
+.table-no-border{
+	border: none;
+}
+#dataNums-border-top{
+	border-top:#dedede 1px solid;
+}
+/* Merge END */
+/* BARRA SUPERIOR
+/////////////////////////////////////*/
+ul#topnav { width: 760px; list-style: none; height: 32px; margin: 0 auto; }
+.ie7 ul#topnav{ width: 760px; list-style: none; height: 32px; margin-left:25px; }
+.ie7 #barraSuperior{ margin-left:15px; }
+ul#topnav li { display: inline; }
+ul#topnav li a { height: 32px; float: left; text-indent: -9999px; }
+/*BOTONES*/
+/*jugar*/
+ul#topnav li#topnav-1 a { width: 95px; background: url(../images/barraSuperior.png) no-repeat 0 0; /* X
+and Y position at 0 */ }
+ul#topnav  li#topnav-1 a:hover { background-position: 0 -32px; /*
+Y position -40px for Over instance image */ }
+ul#topnav  li#topnav-1 a.current { background-position: 0 -64px; /*
+Y position -80px for Current instance image */ }
+/*enviar regalos*/
+ul#topnav li#topnav-2 a { width: 95px; background: url(../images/barraSuperior.png) no-repeat -95px 0; }
+ul#topnav  li#topnav-2 a:hover { background-position: -95px -32px; }
+ul#topnav  li#topnav-2 a.current { background-position: -95px -64px; }
+/*invitar amigos*/
+ul#topnav li#topnav-3 a { width: 95px; background: url(../images/barraSuperior.png) no-repeat -190px 0; }
+ul#topnav  li#topnav-3 a:hover { background-position: -190px -32px; }
+ul#topnav  li#topnav-3 a.current { background-position: -190px -64px; }
+/*comprar tdj*/
+ul#topnav li#topnav-4 a { width: 95px; background: url(../images/barraSuperior.png) no-repeat -285px 0; }
+ul#topnav  li#topnav-4 a:hover { background-position: -285px -32px; }
+ul#topnav  li#topnav-4 a.current { background-position: -285px -64px; }
+/*puntuaciones*/
+ul#topnav li#topnav-5 a { width: 95px; background: url(../images/barraSuperior.png) no-repeat -380px 0; }
+ul#topnav  li#topnav-5 a:hover { background-position: -380px -32px; }
+ul#topnav  li#topnav-5 a.current { background-position: -380px -64px; }
+/*contacto*/
+ul#topnav li#topnav-6 a { width: 95px; background: url(../images/barraSuperior.png) no-repeat -475px 0; }
+ul#topnav  li#topnav-6 a:hover { background-position: -475px -32px; }
+ul#topnav  li#topnav-6 a.current { background-position: -475px -64px; }
+/*ayuda*/
+ul#topnav li#topnav-7 a { width: 95px; background: url(../images/barraSuperior.png) no-repeat -570px 0; }
+ul#topnav  li#topnav-7 a:hover { background-position: -570px -32px; }
+ul#topnav  li#topnav-7 a.current { background-position: -570px -64px; }
+/*idiomas*/
+ul#topnav li#topnav-8 a { width: 95px; background: url(../images/barraSuperior.png) no-repeat -665px 0; }
+ul#topnav  li#topnav-8 a:hover { background-position: -665px -32px; }
+ul#topnav  li#topnav-8 a.current { background-position: -665px -64px; }
+
+
+
+
+/*contenido de los tabs*/
+.tab_container {
+	clear: both;
+	float: left; width: 100%;
+	background: #fff;
+}
+.tab_content {
+	padding: 20px;
+	font-size: 1.2em;
+}
+/*contenido de los tabs*/
+
+/*//////////////////////////////////////////////////////PANTALLAS/////////////////////////////////////////////////////////////*/
+/*juego*/
+#fondojuego{
+	/*background-color:#000;*/
+	width:685px;
+	height:589px;
+	margin:0 auto;
+	position:relative;
+}
+
+/*juego*/
+
+/*enviarRegalo*/
+#fondoRegalo{
+	background-image:url(../images/fondoEnviarRegalo.png);
+	background-repeat:no-repeat;
+	width:685px;
+	height:589px;
+	margin:0 auto;
+	position:relative;
+	top: -50px;
+}
+
+.ie8 #fondoRegalo{
+	background-image:url(../images/fondoEnviarRegalo.png);
+	background-repeat:no-repeat;
+	width:685px;
+	height:589px;
+	margin:0 auto;
+	position:relative;
+	top: -640px;
+}
+.ie7 #fondoRegalo{
+	background-image:url(../images/fondoEnviarRegalo.png);
+	background-repeat:no-repeat;
+	width:685px;
+	height:589px;
+	margin:0 auto;
+	position:relative;
+	top: -640px;
+}
+.ie9 #fondoRegalo{
+	background-image:url(../images/fondoEnviarRegalo.png);
+	background-repeat:no-repeat;
+	width:685px;
+	height:589px;
+	margin:0 auto;
+	position:relative;
+	top: -640px;
+}
+    
+#ventanaObjetos{
+	top:80px;
+	margin-left:12px;
+	width:650px;
+	height:435px;
+	position:absolute;
+	overflow:auto;
+	font-family: Verdana,Geneva,sans-serif;
+	font-size: 10px;
+}
+
+.ie7 #ventanaObjetos{
+	top:80px;
+	margin-left:-638px;
+	width:650px;
+	height:435px;
+	position:absolute;
+	overflow:auto;
+	font-family: Verdana,Geneva,sans-serif;
+	font-size: 10px;
+}
+
+.objetos{
+	background-image:url(../images/fondoObjeto.png);
+	background-repeat:no-repeat;
+	width:145px;
+	height:194px;
+	margin-left:10px;
+	margin-top:10px;
+	float:left;
+	
+	font-family:Verdana, Geneva, sans-serif;
+	color:#822036;
+	font-size:10px;
+	text-align:center;
+	font-weight:800;
+}
+
+.objetoBg{
+	background-image:url(../images/objetobg.png);
+	background-repeat:no-repeat;
+	width:116px;
+	height:109px;
+	margin-top:20px;
+	margin-left:13px;
+	margin-bottom:5px;
+  margin-right: auto;
+}
+
+.objetoBg img{
+	margin-top:15px;
+	margin-left:-1px;
+	margin-bottom:5px;
+}
+
+#enviarRegaloBtn{
+	background-image:url(../images/enviarRegaloBtn.png);
+	background-position:-156px 0px;
+	width:156px;
+	height:38px;
+	top:-43px;
+	position:relative;
+	margin-left:350px;
+	float:left;
+	cursor:pointer;
+}
+
+.ie8 #enviarRegaloBtn{
+	background-image:url(../images/enviarRegaloBtn.png);
+	background-position:-156px 0px;
+	width:156px;
+	height:38px;
+	top:533px;
+	position:relative;
+	margin-left:350px;
+	float:left;
+	cursor:pointer;
+}
+.ie7 #enviarRegaloBtn{
+	background-image:url(../images/enviarRegaloBtn.png);
+	background-position:-156px 0px;
+	width:156px;
+	height:38px;
+	top:533px;
+	position:relative;
+	margin-left:350px;
+	float:left;
+	cursor:pointer;
+}
+.ie9 #enviarRegaloBtn{
+	background-image:url(../images/enviarRegaloBtn.png);
+	background-position:-156px 0px;
+	width:156px;
+	height:38px;
+	top:533px;
+	position:relative;
+	margin-left:350px;
+	float:left;
+	cursor:pointer;
+}
+
+#enviarInvitacionFarmingBtn{
+	background-image:url(../images/enviarInvitacionBrn.png);
+	background-position:-156px 0px;
+	width:156px;
+	height:38px;
+	top:40px;
+	position:relative;
+	margin-left:10px;
+	float:left;
+	cursor:pointer;
+}
+
+.gecko #enviarInvitacionFarmingBtn{
+	background-image:url(../images/enviarInvitacionBrn.png);
+	background-position:-156px 0px;
+	top:-45px;
+	width:156px;
+	height:38px;
+	position:relative;
+	float:left;
+	cursor:pointer;
+	/*margin-left:350px;*/
+
+}
+
+#enviarInvitacionRegaloBtn{
+	background-image:url(../images/enviarRegaloBtn.png);
+	background-position:-156px 0px;
+	width:156px;
+	height:38px;
+	top:40px;
+	position:relative;
+	margin-left:10px;
+	float:left;
+	cursor:pointer;
+}
+
+.gecko #enviarRegaloBtn{
+	background-image:url(../images/enviarRegaloBtn.png);
+	background-position:-156px 0px;
+	top:-45px;
+	width:156px;
+	height:38px;
+	position:relative;
+	float:left;
+	cursor:pointer;
+	/*margin-left:350px;*/
+
+}
+
+.gecko #enviarInvitacionRegaloBtn{
+	background-image:url(../images/enviarRegaloBtn.png);
+	background-position:-156px 0px;
+	width:156px;
+	height:38px;
+	top:70px;
+	position:relative;
+	margin-left:30px;	
+	float:left;
+	cursor:pointer;
+}
+
+
+#enviarRegaloBtn:hover{
+	background-position:-157px -40px;
+}
+
+#enviarInvitacionRegaloBtn:hover{
+	background-position:-157px -40px;
+}
+
+#cancelarBtn{
+	background-image:url(../images/cancelarBtn.png);
+	background-position:-134px 0px;
+	width:134px;
+	height:38px;
+	top:-82px;
+	position:relative;
+	margin-left:516px;
+	float:left;
+	cursor:pointer;
+}
+
+.ie8 #cancelarBtn{
+	background-image:url(../images/cancelarBtn.png);
+	background-position:-134px 0px;
+	width:134px;
+	height:38px;
+	top:495px;
+	position:relative;
+	margin-left:516px;
+	float:left;
+	cursor:pointer;
+}
+.ie7 #cancelarBtn{
+	background-image:url(../images/cancelarBtn.png);
+	background-position:-134px 0px;
+	width:134px;
+	height:38px;
+	top:495px;
+	position:relative;
+	margin-left:516px;
+	float:left;
+	cursor:pointer;
+}
+.ie9 #cancelarBtn{
+	background-image:url(../images/cancelarBtn.png);
+	background-position:-134px 0px;
+	width:134px;
+	height:38px;
+	top:495px;
+	position:relative;
+	margin-left:516px;
+	float:left;
+	cursor:pointer;
+}
+
+#cancelarInvitacionBtn{
+	background-image:url(../images/cancelarBtn.png);
+	background-position:-134px 0px;
+	width:134px;
+	height:38px;
+	/*top:1px;*/
+	margin-top: 40px;
+	position:relative;
+	margin-left:20px;
+	float:left;
+	cursor:pointer;
+}
+
+.gecko #cancelarBtn{
+	background-image:url(../images/cancelarBtn.png);
+	background-position:-134px 0px;
+	width:134px;
+	height:38px;
+	top:-83px;
+	position:relative;
+	margin-left:516px;
+	float:left;
+	cursor:pointer;
+}
+.gecko #cancelarInvitacionBtn{
+	background-image:url(../images/cancelarBtn.png);
+	background-position:-134px 0px;
+	width:134px;
+	height:38px;
+	top:-68px;
+	position:relative;
+	margin-left:210px;
+	float:left;
+	cursor:pointer;
+}
+.gecko #cancelarInvitacionRegaloBtn{
+	background-image:url(../images/cancelarBtn.png);
+	background-position:-134px 0px;
+	width:134px;
+	height:38px;
+	top:32px;
+	position:relative;
+	margin-left:210px;
+	float:left;
+	cursor:pointer;
+}
+#cancelarInvitacionRegaloBtn{
+	background-image:url(../images/cancelarBtn.png);
+	background-position:-134px 0px;
+	width:134px;
+	height:38px;
+	top:1px;
+	position:relative;
+	margin-left:210px;
+	float:left;
+	cursor:pointer;
+}
+.gecko #cancelarInvitacionFarmingBtn{
+	background-image:url(../images/cancelarBtn.png);
+	background-position:-134px 0px;
+	width:134px;
+	height:38px;
+	top:32px;
+	position:relative;
+	margin-left:210px;
+	float:left;
+	cursor:pointer;
+}
+
+#cancelarInvitacionFarmingBtn{
+	background-image:url(../images/cancelarBtn.png);
+	background-position:-134px 0px;
+	width:134px;
+	height:38px;
+	top:1px;
+	position:relative;
+	margin-left:210px;
+	float:left;
+	cursor:pointer;
+}
+#cancelarInvitacionBtn:hover{
+	background-position:-135px -39px;
+}
+#cancelarInvitacionRegaloBtn:hover{
+	background-position:-135px -39px;
+}
+.ie7 .objetos form{
+margin-top:5px;
+}
+.ie7 .objetoBg{
+background-image:url(../images/objetobg.png);
+background-repeat:no-repeat;
+width:116px;
+height:109px;
+margin-top:20px;
+margin-left:-3px;
+margin-bottom:-5px;
+}
+
+
+#cancelarBtn:hover{
+	background-position:-135px -39px;
+}
+/*enviarRegalo*/
+
+/*comprarTortas*/
+#fondoTortas{
+	background-image:url(../images/fondoCompra00.png);
+	background-repeat:no-repeat;
+	width:692px;
+	height:543px;
+	margin:0 auto;
+	position:relative;
+	top:-30px;
+}
+
+.ie8 #fondoTortas{
+	background-image:url(../images/fondoCompra00.png);
+	background-repeat:no-repeat;
+	width:692px;
+	height:543px;
+	margin:0 auto;
+	position:relative;
+	top:-640px;
+}
+.ie7 #fondoTortas{
+	background-image:url(../images/fondoCompra00.png);
+	background-repeat:no-repeat;
+	width:692px;
+	height:543px;
+	margin:0 auto;
+	position:relative;
+	top:-640px;
+}
+.ie9 #fondoTortas{
+	background-image:url(../images/fondoCompra00.png);
+	background-repeat:no-repeat;
+	width:692px;
+	height:543px;
+	margin:0 auto;
+	position:relative;
+	top:-640px;
+}
+
+.comprarTortasBtn{
+	background-image:url(../images/comprarBtn.png);
+	background-position:-135px 0px;
+	width:135px;
+	height:38px;
+	float:left;
+	margin-top:20px;
+	margin-left:20px;
+	cursor:pointer;
+}
+
+.ie7 .comprarTortasBtn{
+	background-image:url(../images/comprarBtn.png);
+	background-position:-135px 0px;
+	width:135px;
+	height:38px;
+	float:left;
+	margin-top:30px;
+	margin-left:20px;
+	cursor:pointer;
+}
+
+.comprarTortasBtn:hover{
+	background-position:-135px -42px;
+}
+
+.precioTorta{
+	width:400px;
+	height:31px;
+	margin-left:30px;
+	margin-top:25px;
+	float:left;
+}
+
+
+
+#ventanaTorta{
+	top:80px;
+	margin-left:12px;
+	width:650px;
+	height:435px;
+	position:absolute;
+	padding-top:10px;
+}
+
+#textoTorta{
+	width:400px;
+	height:15px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	color:#FFFFFF;
+	margin-left:50px;
+	margin-top:35px;
+	float:left;
+	
+}
+
+.ie7 #textoTorta{
+	width:400px;
+	height:15px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	color:#FFFFFF;
+	margin-left:50px;
+	margin-top:5px;
+	float:left;
+	
+}
+
+#textoTorta a:link{
+	color:#FFFF00;
+}
+
+#textoTorta a:visited{
+	color:#FFFF00;
+}
+
+#textoTorta a:hover{
+	color:#FFFF00;
+}
+
+#textoTorta a:active{
+	color:#FFFF00;
+}
+
+.preciosDin{
+	width:80%;
+	height:21px;
+	float:right;
+	color:#FFFFFF;
+	padding:5px;
+	margin-top:-5px;
+}
+
+.ie7 .preciosDin{
+	width:80%;
+	height:21px;
+	float:right;
+	color:#FFFFFF;
+	padding:5px;
+	margin-top:-40px;
+}
+
+.preciosDin span.tortas-num{
+	float:left;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:24px;
+	font-weight:bold;
+	color:#ff6c00;
+	text-shadow: 0px 2px 0px #000;
+	min-width:68px;
+}
+
+.ie7 .preciosDin span.tortas-num{
+	float:left;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:24px;
+	font-weight:bold;
+	color:#ff6c00;
+	text-shadow: 0px 2px 0px #000;
+	min-width:68px;
+	margin-top:5px;
+}
+
+.preciosDin span.signo-igual{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#822036;
+	text-shadow: 0px 1px 0px #dfff65;
+	margin-top:10px;
+	margin-left:10px;
+	margin-right:5px;
+}
+
+.preciosDin span.precio-fx{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	color:#14740e;
+	text-shadow: 0px 1px 0px #dfff65;
+	margin-top:3px;
+	min-width:56px;
+	display:inline-block;
+}
+
+.preciosDin span.precio-facebook{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	font-style:italic;
+	color:#FFF;
+	text-shadow:none;
+	margin-left:10px;
+	margin-top:10px;
+}
+
+.preciosDin img.facebook-mon{
+	margin-left:10px;
+}
+
+#celular-box{
+	background-image:url(../images/compraMovilBtn.png);
+	background-repeat:no-repeat;
+	width:137px;
+	height:47px;
+	position:absolute;
+	right:10px;
+	top:-15px;
+	cursor:pointer;
+}
+
+#celular-box:hover{
+	opacity:0.85;
+}
+
+#celular-box a{
+	width:100%;
+	height:100%;
+}
+
+#div-compraMovil{
+	background-image:url(../images/pantalla_api_chavo.png);
+	background-repeat:no-repeat;
+	width:700px;
+	height:700px;
+	position:absolute;
+	right:10px;
+	top:145px;
+	cursor:pointer;
+	left:32px;
+	z-index: 99999999;
+	display: none;
+	
+}
+
+#botonCompraMovilRegresar{
+	background-image:url(../images/cancelarBtn.png);
+	background-repeat:no-repeat;
+	width:135px;
+	height:38px;
+	position:absolute;
+	right:10px;
+	top:467px;
+	cursor:pointer;
+	left:62px;
+	z-index: 99999999;
+	display: none;
+	
+}
+#botonCompraMovilContinuar{
+	background-image:url(../images/btnsAceptar.png);
+	background-repeat:no-repeat;
+	width:135px;
+	height:40px;
+	position:absolute;
+	right:10px;
+	top:465px;
+	cursor:pointer;
+	left:522px;
+	z-index: 99999999;
+	display: none;
+	
+}
+
+#tarjeta-box{
+	background-image:url(../images/compraTarjetaBtn.png);
+	background-repeat:no-repeat;
+	width:137px;
+	height:47px;
+	position:absolute;
+	right:10px;
+	top:-62px;
+	cursor:pointer;
+}
+#cerrar{
+	background-image:url(../images/cancelar.png);
+	background-repeat:no-repeat;
+	width:20px;
+	height:20px;
+	position:absolute;
+	right:-2px;
+	top:-70px;
+	cursor:pointer;
+}
+
+#tarjeta-box:hover{
+	opacity:0.85;
+}
+
+#tarjeta-box a{
+	display:block;
+	width:100%;
+	height:100%;
+}
+/*comprarTortas*/
+
+
+/*invitarAmigos*/
+#fondoInvitarAmigos{
+	background-image:url(../images/fondoInvitarAmigos.png);
+	background-repeat:no-repeat;
+	width:689px;
+	height:589px;
+	margin:0 auto;
+	position:relative;
+	top:-50px;
+}
+
+.ie8 #fondoInvitarAmigos{
+	background-image:url(../images/fondoInvitarAmigos.png);
+	background-repeat:no-repeat;
+	width:689px;
+	height:589px;
+	margin:0 auto;
+	position:relative;
+	top:-640px;
+}
+.ie7 #fondoInvitarAmigos{
+	background-image:url(../images/fondoInvitarAmigos.png);
+	background-repeat:no-repeat;
+	width:689px;
+	height:589px;
+	margin:0 auto;
+	position:relative;
+	top:-640px;
+}
+.ie9 #fondoInvitarAmigos{
+	background-image:url(../images/fondoInvitarAmigos.png);
+	background-repeat:no-repeat;
+	width:689px;
+	height:589px;
+	margin:0 auto;
+	position:relative;
+	top:-640px;
+}
+
+#objetoEnviado{
+	width:218px;
+	height:215px;
+	margin-left:30px;
+	margin-top:20px;
+	float:left;
+	
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#FFFF00;
+}
+
+#objetoEnviado img{
+	margin-bottom:15px;
+}
+
+#ventanaInvitacion{
+	top:80px;
+	margin-left:12px;
+	width:650px;
+	height:435px;
+	position:absolute;
+	padding-top:10px;
+}
+
+#ventanaForma{
+	width:330px;
+	height:300px;
+	margin-top:20px;
+	margin-left:40px;
+	float:left;
+	
+}
+
+#labelFriend{
+	width:300px;
+	height:30px;
+	margin-top:10px;
+	margin-left:15px;
+	float:left;
+	color:#333333;
+	border-bottom:thin solid #CCC;
+}
+
+#checkBoxFriend{
+	width:300px;
+	height:170px;
+	margin-left:15px;
+	float:left;
+	overflow:auto;
+	border-bottom:thin solid #CCC;
+}
+
+#friendSelected{
+	width:300px;
+	height:70px;
+	margin-left:15px;
+	float:left;
+	overflow:auto;
+}
+
+#friendSelected ul, #rollover li {
+	list-style-type: none;
+	line-height: 20px;
+}
+
+#friendSelected li a {
+	background-image:url(../images/selectedIcon.png);
+	background-repeat: no-repeat;  
+	background-position: 0 3px;
+	padding-left: 15px;
+	text-decoration:none;
+	color:#666666;
+}
+
+
+#friendSelected li a:hover {
+	background-position: 0 -14px;
+	padding-left: 15px;
+	text-decoration:none;
+	color:#666666;
+}
+
+.invitarTextType{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+}
+
+#enviarInvitacionBtn{
+	background-image:url(../images/enviarInvitacionBrn.png);
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+	width:156px;
+	height:38px;
+	cursor:pointer;
+	float:left;
+	margin-top:30px;
+	margin-left:20px;
+}
+
+#enviarInvitacionBtn:hover{
+	background-position:0px -40px;
+}
+
+#cancelarInvitacionBtn{
+	background-image:url(../images/cancelarBtn.png);
+	background-position:-134px 0px;
+	width:134px;
+	height:38px;
+	float:left;
+	margin-top:30px;
+	margin-left:20px;
+	cursor:pointer;
+}
+
+#cancelarInvitacionBtn:hover{
+	background-position:-135px -39px;
+}
+
+/*invitarAmigos*/
+
+/*puntuaciones*/
+#fondoPuntos{
+	background-image:url(../images/fondoPuntuaciones.png);
+	background-repeat:no-repeat;
+	width:729px;
+	height:565px;
+	margin:0 auto;
+	position:relative;
+}
+
+#fondoPuntosFake{
+	background-image:url(../images/fondoPuntuaciones.png);
+	background-repeat:no-repeat;
+	width:729px;
+	height:565px;
+	margin:0 auto;
+	position:relative;
+	top:-28px;
+}
+.ie7 #fondoPuntosFake{
+	background-image:url(../images/fondoPuntuaciones.png);
+	background-repeat:no-repeat;
+	width:729px;
+	height:565px;
+	margin:0 auto;
+	position:relative;
+	top:13px;
+}
+.ie8 #fondoPuntosFake{
+	background-image:url(../images/fondoPuntuaciones.png);
+	background-repeat:no-repeat;
+	width:729px;
+	height:565px;
+	margin:0 auto;
+	position:relative;
+	top:13px;
+}
+.ie9 #fondoPuntosFake{
+	background-image:url(../images/fondoPuntuaciones.png);
+	background-repeat:no-repeat;
+	width:729px;
+	height:565px;
+	margin:0 auto;
+	position:relative;
+	top:13px;
+}
+
+#ventanaPuntos{
+	top:80px;
+	margin-left:32px;
+	width:650px;
+	height:435px;
+	position:absolute;
+	padding-top:10px;
+	text-align:center;
+}
+
+#ventanaPuntos table{
+	width:98%;
+	margin:0 auto;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#1f9f01;
+	border-bottom:#FFF 1px solid;
+	border-top:#dedede 1px solid;
+}
+
+#ventanaPuntos table tr{
+	height:36px;
+	background-color:#FFFFFF;
+}
+
+#ventanaPuntos table th{
+	color:#ff840d;
+}
+
+.userNom{
+	color:#979797;
+}
+
+.dataNums{
+	width:98%;
+	height:36px;
+	margin:0 auto;
+}
+
+#ranking{
+	width:200px;
+	height:100%;
+	float:left;
+	text-align:left;
+	padding-left:20px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#ranking img{
+	top:55px;
+}
+
+#paginacion{
+	width:300px;
+	height:100%;
+	float:right;
+}
+
+#paginacion table{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#938c84;
+}
+
+#paginacion a{
+	color:#938c84;
+	font-size:10px;
+	text-decoration:none;
+}
+
+#paginacion a:hover{
+	color:#ff6400;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+#paginacion a img{
+	border:none;
+}
+
+#rankingTit{
+	color:#b03600;
+	font-weight:bold;
+	font-size:12px;
+}
+
+.rankingTit{
+	color:#b03600;
+	font-weight:bold;
+	font-size:12px;
+	font-family: Arial;
+}
+
+#rankingNum{
+	color:#ff6400;
+	font-size:18px;
+	font-weight:bold;
+}
+
+/*puntuaciones*/
+
+#flashContent a img{
+	border:none;
+}
+
+/*PIN*/
+#pinBg{
+	background-image:url(../images/canjeaPin00.png);
+	background-repeat:no-repeat;
+	width:553px;
+	height:172px;
+	position:relative;
+	top:-470px;
+	left:100px;
+	z-index: 99999999;
+  display:none;
+}
+#tarjetaEspera{
+	background-image:url(../images/esperando.png);
+	background-repeat:no-repeat;
+	width:553px;
+	height:220px;
+	position:relative;
+	top:290px;
+	left:100px;
+	z-index: 99999999;
+  display:none;
+}
+
+.ie7 #tarjetaEspera{
+	background-image:url(../images/esperando.png);
+	background-repeat:no-repeat;
+	width:553px;
+	height:220px;
+	position:relative;
+	top:290px;
+	left:100px;
+	z-index: 99999999;
+  display:none;
+}
+.ie8 #tarjetaEspera{
+	background-image:url(../images/esperando.png);
+	background-repeat:no-repeat;
+	width:553px;
+	height:220px;
+	position:relative;
+	top:290px;
+	left:100px;
+	z-index: 99999999;
+  display:none;
+}
+.ie9 #tarjetaEspera{
+	background-image:url(../images/esperando.png);
+	background-repeat:no-repeat;
+	width:553px;
+	height:220px;
+	position:relative;
+	top:290px;
+	left:100px;
+	z-index: 99999999;
+  display:none;
+}
+
+.ie7 #pinBg{
+	background-image:url(../images/canjeaPin.png);
+	background-repeat:no-repeat;
+	width:553px;
+	height:172px;
+	position:absolute;
+	top:330px;
+	left:100px;
+	z-index: 99999999;
+}
+.ie8 #pinBg{
+	background-image:url(../images/canjeaPin.png);
+	background-repeat:no-repeat;
+	width:553px;
+	height:172px;
+	position:absolute;
+	top:330px;
+	left:100px;
+	z-index: 99999999;
+}
+.ie9 #pinBg{
+	background-image:url(../images/canjeaPin.png);
+	background-repeat:no-repeat;
+	width:553px;
+	height:172px;
+	position:absolute;
+	top:330px;
+	left:100px;
+	z-index: 99999999;
+}
+
+#textoPin{
+	width:500px;
+	height:50px;
+	position:relative;
+	margin:80px auto 0 auto;
+	top:75px;
+}
+
+.ie7 #textoPin{
+	width:500px;
+	height:50px;
+	position:relative;
+	margin:5px auto 0 auto;
+	top:65px;
+}
+.ie8 #textoPin{
+	width:500px;
+	height:50px;
+	position:relative;
+	margin:5px auto 0 auto;
+	top:65px;
+}
+.ie9 #textoPin{
+	width:500px;
+	height:50px;
+	position:relative;
+	margin:5px auto 0 auto;
+	top:65px;
+}
+
+#textoPin input{
+	background-color:transparent;
+	border:none;
+	height:40px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	width:100%;
+	color:#119613;
+	text-align:center;
+}
+
+#btnSiguiente{
+	background-image:url(../images/btnSiguiente.png);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	width:146px;
+	height:40px;
+	cursor:pointer;
+	
+	margin-left:200px;
+	margin-top:70px;
+}
+
+.ie7 #btnSiguiente{
+	background-image:url(../images/btnSiguiente.png);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	width:146px;
+	height:40px;
+	cursor:pointer;
+	margin-left:200px;
+	margin-top:70px;
+}
+.ie8 #btnSiguiente{
+	background-image:url(../images/btnSiguiente.png);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	width:146px;
+	height:40px;
+	cursor:pointer;
+	margin-left:200px;
+	margin-top:70px;
+}
+.ie9 #btnSiguiente{
+	background-image:url(../images/btnSiguiente.png);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	width:146px;
+	height:40px;
+	cursor:pointer;
+	margin-left:200px;
+	margin-top:70px;
+}
+
+#btnSiguiente:hover{
+	background-position:0 -40px;
+}
+
+#btnPinCerrar{
+	background-image:url(../images/cancelar.png);
+	background-repeat:no-repeat;
+	background-position:0 -2px;
+	width:20px;
+	height:18px;
+	cursor:pointer;
+	float:right;
+	margin-right:30px;
+	margin-top:-140px;
+}
+
+.ie7 #btnPinCerrar{
+	background-image:url(../images/cancelar.png);
+	background-repeat:no-repeat;
+	background-position:0 -2px;
+	width:20px;
+	height:18px;
+	cursor:pointer;
+	float:right;
+	margin-right:30px;
+	margin-top:-140px;
+}
+.ie8 #btnPinCerrar{
+	background-image:url(../images/cancelar.png);
+	background-repeat:no-repeat;
+	background-position:0 -2px;
+	width:20px;
+	height:18px;
+	cursor:pointer;
+	float:right;
+	margin-right:30px;
+	margin-top:-140px;
+}
+.ie9 #btnPinCerrar{
+	background-image:url(../images/cancelar.png);
+	background-repeat:no-repeat;
+	background-position:0 -2px;
+	width:20px;
+	height:18px;
+	cursor:pointer;
+	float:right;
+	margin-right:30px;
+	margin-top:-140px;
+}
+
+#btnPinCerrar:hover{
+	background-position:0 -19px;
+}
+
+#errorTarjeta{
+	background-image:url(../images/error.png);
+	background-repeat:no-repeat;
+	width:555px;
+	height:205px;
+	position:relative;
+	top:-420px;
+	left:90px;
+	z-index:999999;
+  display:none;
+}
+
+.ie7 #errorTarjeta{
+	background-image:url(../images/error.png);
+	background-repeat:no-repeat;
+	width:555px;
+	height:205px;
+	position:absolute;
+	top:330px;
+	left:90px;
+	z-index:999999;
+}
+.ie8 #errorTarjeta{
+	background-image:url(../images/error.png);
+	background-repeat:no-repeat;
+	width:555px;
+	height:205px;
+	position:absolute;
+	top:330px;
+	left:90px;
+	z-index:999999;
+}
+.ie9 #errorTarjeta{
+	background-image:url(../images/error.png);
+	background-repeat:no-repeat;
+	width:555px;
+	height:205px;
+	position:absolute;
+	top:330px;
+	left:90px;
+	z-index:999999;
+}
+
+#errorTarjetaInvitacion{
+	background-image:url(../images/error.png);
+	background-repeat:no-repeat;
+	width:555px;
+	height:205px;
+	position:relative;
+	top:-100px;
+	left:20px;
+	z-index:999999;
+}
+
+.ie7 #errorTarjetaInvitacion{
+	background-image:url(../images/error.png);
+	background-repeat:no-repeat;
+	width:555px;
+	height:205px;
+	position:absolute;
+	top:-140px;
+	left:-270px;
+	z-index:999999;
+}
+.ie8 #errorTarjetaInvitacion{
+	background-image:url(../images/error.png);
+	background-repeat:no-repeat;
+	width:555px;
+	height:205px;
+	position:absolute;
+	top:-140px;
+	left:-270px;
+	z-index:999999;
+}
+.ie9 #errorTarjetaInvitacion{
+	background-image:url(../images/error.png);
+	background-repeat:no-repeat;
+	width:555px;
+	height:205px;
+	position:absolute;
+	top:-140px;
+	left:-270px;
+	z-index:999999;
+}
+
+
+#ErrorMsg{
+	position:absolute;
+	top:110px;
+	left:180px;
+}
+
+#btnErrorCerrar{
+	background-image:url(../images/cancelar.png);
+	background-repeat:no-repeat;
+	background-position:0 -2px;
+	width:20px;
+	height:18px;
+	cursor:pointer;
+	float:right;
+	margin-right:30px;
+	margin-top:20px;
+	position:absolute;
+	left: 510px;
+	top:0px;
+}
+
+#btnErrorCerrarInvitacion{
+	background-image:url(../images/cancelar.png);
+	background-repeat:no-repeat;
+	background-position:0 -2px;
+	width:20px;
+	height:18px;
+	cursor:pointer;
+	float:right;
+	margin-right:30px;
+	margin-top:20px;
+	position:absolute;
+	left: 510px;
+	top:0px;
+}
+
+#btnErrorCerrar:hover{
+	background-position:0 -19px;
+}
+
+#graciasCompra{
+	background-image:url(../images/graciasCompra.png);
+	background-repeat:no-repeat;
+	width:555px;
+	height:250px;
+	position:relative;
+	top:-420px;
+	left:90px;
+	z-index:999999;
+  display:none;
+}
+
+.ie7 #graciasCompra{
+	background-image:url(../images/graciasCompra.png);
+	background-repeat:no-repeat;
+	width:555px;
+	height:250px;
+	position:absolute;
+	top:310px;
+	left:90px;
+	z-index:999999;
+}
+
+.ie8 #graciasCompra{
+	background-image:url(../images/graciasCompra.png);
+	background-repeat:no-repeat;
+	width:555px;
+	height:250px;
+	position:absolute;
+	top:310px;
+	left:90px;
+	z-index:999999;
+}
+
+.ie9 #graciasCompra{
+	background-image:url(../images/graciasCompra.png);
+	background-repeat:no-repeat;
+	width:555px;
+	height:250px;
+	position:absolute;
+	top:310px;
+	left:90px;
+	z-index:999999;
+}
+
+#graciasJuego{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	width:300px;
+	height:30px;
+	text-align:left;
+	font-weight:bold;
+	float:right;
+	margin-top:205px;
+	position:absolute;
+	left:280px;
+}
+
+#graciasJuego a{
+	color:#fcff00;
+}
+
+#canjearOtraBtn{
+	background-image:url(../images/canjearOtraBtn.png);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	width:138px;
+	height:40px;
+	float:left;
+	margin-left:60px;
+	margin-top:190px;
+	position:absolute;
+}
+
+#canjearOtraBtn:hover{
+	background-position:0 -40px;
+}
+
+#paqueteCanje{
+	background-image:url(../images/paquete.png);
+	background-repeat:no-repeat;
+	width:555px;
+	height:170px;
+	top:-420px;
+	left:80px;
+	position:relative;
+	z-index:999999;
+  display:none;
+}
+
+.ie7 #paqueteCanje{
+	background-image:url(../images/paquete.png);
+	background-repeat:no-repeat;
+	width:555px;
+	height:170px;
+	top:350px;
+	left:80px;
+	position:absolute;
+	z-index:999999;
+}
+
+.ie8 #paqueteCanje{
+	background-image:url(../images/paquete.png);
+	background-repeat:no-repeat;
+	width:555px;
+	height:170px;
+	top:350px;
+	left:80px;
+	position:absolute;
+	z-index:999999;
+}
+
+.ie9 #paqueteCanje{
+	background-image:url(../images/paquete.png);
+	background-repeat:no-repeat;
+	width:555px;
+	height:170px;
+	top:350px;
+	left:80px;
+	position:absolute;
+	z-index:999999;
+}
+
+#valorTarjeta{
+	width:300px;
+	height:20px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#ffea00;
+	float:left;
+	margin-top:40px;
+	margin-left:80px;
+	clear:both;
+}
+
+#valorTarjeta span{
+	color:#ff6000;
+	font-size:14px;
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+#paqueteSelect{
+	color:#1f471c;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	width:130px;
+	height:20px;
+	float:left;
+	margin-top:80px;
+	margin-left:-320px;
+	position:relative;
+	top:-28px;
+	left:20px;
+}
+
+#errorTexto{
+                width:360px;
+                height:50px;
+                float:right;
+                top:100px;
+                margin-right:-20px;
+                position:relative;
+                text-align:left;
+                padding:10px;
+                font-family:Verdana, Geneva, sans-serif;
+                font-size:14px;
+                color:#330000;
+}
+#errorTextoInvitacion{
+                width:360px;
+                height:50px;
+                float:right;
+                top:100px;
+                margin-right:30px;
+                position:relative;
+                text-align:left;
+                padding:10px;
+                font-family:Verdana, Geneva, sans-serif;
+                font-size:14px;
+                color:#330000;
+}
+#paqueteSelect span{
+	margin-left:70px;
+}
+
+#btnPaqueteCerrar{
+	background-image:url(../images/cancelar.png);
+	background-repeat:no-repeat;
+	background-position:0 -2px;
+	width:20px;
+	height:18px;
+	cursor:pointer;
+	position:absolute;
+	margin-top:20px;
+	margin-left:490px;
+	cursor:pointer;
+}
+
+.ie7 #btnPaqueteCerrar{
+	background-image:url(../images/cancelar.png);
+	background-repeat:no-repeat;
+	background-position:0 -2px;
+	width:20px;
+	height:18px;
+	cursor:pointer;
+	position:absolute;
+	margin-top:20px;
+	margin-left:110px;
+	cursor:pointer;
+}
+
+#btnPaqueteCerrar:hover{
+	background-position:0 -19px;
+}
+
+#btnPaqueteCancelar{
+	background-image:url(../images/cancelarBtn.png);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	width:135px;
+	height:39px;
+	position:absolute;
+	margin-top:120px;
+	margin-left:130px;
+	cursor:pointer;
+}
+
+.ie7 #btnPaqueteCancelar{
+	background-image:url(../images/cancelarBtn.png);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	width:135px;
+	height:39px;
+	position:absolute;
+	margin-top:120px;
+	margin-left:-250px;
+	cursor:pointer;
+}
+
+#btnPaqueteCancelar:hover{
+	background-position:-1px -39px;
+}
+
+#btnPaqueteCanjear{
+	background-image:url(../images/canjearBtn.png);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	width:144px;
+	height:40px;
+	position:absolute;
+	margin-top:120px;
+	margin-left:280px;
+	cursor:pointer;
+}
+
+.ie7 #btnPaqueteCanjear{
+	background-image:url(../images/canjearBtn.png);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	width:144px;
+	height:40px;
+	position:absolute;
+	margin-top:120px;
+	margin-left:-100px;
+	cursor:pointer;
+}
+
+#btnPaqueteCanjear:hover{
+	background-position:0 -41px;
+}
+/*
+#pagaMobilSelect{
+	background-image:url(../images/pagaMobil.png);
+	background-repeat:no-repeat;
+	width:552px;
+	height:233px;
+}
+
+#pagaMobilSelect form{
+	color:#1f471c;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	width:400px;
+	margin-left:30px;
+	margin-top:80px;
+	float:left;
+}
+
+#pagaMobilSelect form input{
+	margin-bottom:15px;
+}
+
+.ie7 #pagaMobilSelect form input{
+	margin-bottom:5px;
+}
+
+#pagaMobilSelect form input[type="radio"]{
+	margin-right:20px;
+}
+
+.ie7 #pagaMobilSelect form input[type="radio"]{
+	margin-right:20px;
+	margin-top:2px;
+}
+
+#pagaMobilSelect span{
+	margin-left:80px;
+}
+
+#pagaMobilSelect strong{
+	min-width:50px;
+	display:inline-block;
+}
+
+#pagaMobilCerrar{
+	background-image:url(../images/cancelar.png);
+	background-repeat:no-repeat;
+	background-position:0 -2px;
+	width:20px;
+	height:18px;
+	cursor:pointer;
+	position:absolute;
+	margin-left:490px;
+	margin-top:25px;
+}
+
+.ie7 #pagaMobilCerrar{
+	background-image:url(../images/cancelar.png);
+	background-repeat:no-repeat;
+	background-position:0 -2px;
+	width:20px;
+	height:18px;
+	cursor:pointer;
+	position:absolute;
+	margin-left:170px;
+	margin-top:-130px;
+}
+
+#pagaMobilCerrar:hover{
+	background-position:0 -19px;
+}
+*/
+#pagaComprar{
+	background-image:url(../images/comprarBtn.png);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	width:135px;
+	height:40px;
+	float:left;
+	margin-left:200px;
+	cursor:pointer;
+}
+
+.ie7 #pagaComprar{
+	background-image:url(../images/comprarBtn.png);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	width:135px;
+	height:40px;
+	float:left;
+	margin-left:200px;
+	cursor:pointer;
+	margin-top:15px;
+}
+
+
+#pagaComprar:hover{
+	background-position:0 -42px;
+}
+
+.myclass{
+float:right;
+/background-color:#006600;/
+position:absolute;
+right:-38px;
+margin-top:19px;
+/top:200px;/
+}
+
+.modal-overlay
+{
+position:fixed;
+top:40px;
+right:0;
+bottom:0;
+left:0;
+height:100%;
+width:100%;
+margin:0;
+padding:0;
+background:#fff;
+opacity:0;
+filter: alpha(opacity=0);
+-moz-opacity: 0;
+z-index:101;
+}
+.modal-window
+{
+position:fixed;
+top:50%;
+left:50%;
+margin:0;
+padding:0;
+z-index:102;
+}
+.close-window
+{
+position:absolute;
+width:32px;
+height:20px;
+right:8px;
+top:8px;
+background:transparent url('https://secure.playfulplaysocial.mx/elchavo/images/cancelar.png') no-repeat scroll right top;
+text-indent:-99999px;
+overflow:hidden;
+cursor:pointer;
+opacity:.5;
+filter: alpha(opacity=50);
+-moz-opacity: 0.5;
+}
+.close-window:hover
+{
+opacity:.99;
+filter: alpha(opacity=99);
+-moz-opacity: 0.99;
+}
+
+#alertaEnviarRegalo{
+        background-image: url("../images/alertaEnviarRegalo.png");
+        background-repeat: no-repeat;
+        height: 203px;
+        width: 474px;
+        z-index: 5;
+}
+
+#alertaEnviarRegalo p{
+                width:80%;
+                height:25px;
+                position:relative;
+                margin:0 auto;
+                font-family:Verdana, Geneva, sans-serif;
+                color:#993333;
+                font-size:12px;
+                font-weight:bold;
+                top:50px;
+                text-align:center;
+                clear:both;
+                display:block;
+                z-index: 3;
+}
+
+#alertaAceptar{
+                background-image:url(../images/btnsAceptar.png);
+                background-repeat:no-repeat;
+                background-position:0 -2px;
+                width:174px;
+                height:38px;
+                position:relative;
+                float:left;
+                margin-left:160px;
+                top:110px;
+}
+
+#alertaAceptar:hover{
+                background-position:0 -40px;
+                height:38px;
+}
+#popUpBg{
+position:absolute;
+z-index:99998;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background-color:#000;
+display:none;
+}
+#pinFondo{
+  position:absolute;
+  z-index:1;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color:#000;
+  display:none;
+}
+
+#popUpContainer{
+position:absolute;
+z-index:99999;
+display:none;
+}
+#tdj{
+left:-90px;
+top:14px;
+position:relative;
+}
+.gecko #containerIdiomas{
+	margin:0 auto;
+	position:relative;
+	left:-380px;
+	top:-639px;
+	z-index:99999999;
+	height: 0px;
+	width:0px;
+}
+
+
+#containerIdiomas{
+	margin:0 auto;
+	position:relative;
+	left:-380px;
+	top:-639px;
+	z-index:99999999;
+	height: 0px;
+	width:0px;
+}
+
+.webkit #containerIdiomas{
+	margin:0 auto;
+	position:relative;
+	left:-380px;
+	top:-60px;
+	z-index:99999999;
+	height: 0px;
+	width:0px;
+}
+
+.chrome #containerIdiomas{
+	margin:0 auto;
+	position:relative;
+	left:-380px;
+	top:-60px;
+	z-index:99999999;
+	height: 0px;
+	width:0px;
+}
+
+.ie7 #containerIdiomas{
+	margin:0 auto;
+	position:relative;
+	left:-380px;
+	top:-649px;
+	z-index:99999999;
+	height: 0px;
+	width:0px;
+}
+
+.ie8 #containerIdiomas{
+	margin:0 auto;
+	position:relative;
+	left:-380px;
+	top:-649px;
+	z-index:99999999;
+	height: 0px;
+	width:0px;
+}
+
+.ie9 #containerIdiomas{
+	margin:0 auto;
+	position:relative;
+	left:-380px;
+	top:-649px;
+	z-index:99999999;
+	height: 0px;
+	width:0px;
+}
+.ie9 #tdj{
+left:-90px;
+top:30px;
+position:relative;
+}
+.ie8 #tdj{
+left:-90px;
+top:30px;
+position:relative;
+}
+.ie7 #tdj{
+left:-90px;
+top:30px;
+position:relative;
+}
+
+#tortas{
+position:relative;
+}
+
+.ie9 #tortas{
+position:relative;
+top:15px;
+}
+
+.ie8 #tortas{
+position:relative;
+top:15px;
+}
+
+.ie7 #tortas{
+position:relative;
+top:15px;
+}
+
+	
+/*PIN*/
+
+
+#movilTarjeta{
+	background-image:url(../images/paquete.png);
+	background-repeat:no-repeat;
+	width:555px;
+	height:235px;
+	position:absolute;
+	top:350px;
+	left:90px;
+	z-index:999999;
+}
+#movilCerrar{
+	background-image:url(../images/cancelar.png);
+	background-repeat:no-repeat;
+	background-position:0 -2px;
+	width:20px;
+	height:18px;
+	cursor:pointer;
+	position:absolute;
+	margin-top:20px;
+	margin-left:110px;
+	cursor:pointer;
+	left: 400px;
+}
+#movilAceptar{
+                background-image:url(../images/btnsAceptar.png);
+                background-repeat:no-repeat;
+                background-position:0 -2px;
+                width:174px;
+                height:38px;
+                position:relative;
+                float:left;
+                margin-left:240px;
+                top:180px;
+				cursor:pointer;
+}
+#movilCancelar{
+	background-image:url(../images/cancelarBtn.png);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	width:135px;
+	height:39px;
+	position:absolute;
+	margin-top:180px;
+	margin-left:380px;
+	cursor:pointer;
+}
+#textoMovil{
+left:80px;
+top:30px;
+position:absolute;
+}
+#igualMovil{
+left:100px;
+top:30px;
+position:absolute;
+}
+#precioMovil{
+left:120px;
+top:30px;
+position:absolute;
+}
+
+#textoMovil p{
+                width:100%;
+                height:25px;
+                position:relative;
+                margin:0 auto;
+                font-family:Verdana, Geneva, sans-serif;
+                color:#1f471c;
+                font-size:12px;
+                font-weight:bold;
+                top:45px;
+                text-align:center;
+                clear:both;
+                display:block;
+                z-index: 3;
+}
+#igualMovil p{
+                width:100%;
+                height:25px;
+                position:relative;
+                margin:0 auto;
+                font-family:Verdana, Geneva, sans-serif;
+                color:#1f471c;
+                font-size:12px;
+                font-weight:bold;
+                top:45px;
+                text-align:center;
+                clear:both;
+                display:block;
+                z-index: 3;
+}
+#precioMovil p{
+                width:100%;
+                height:25px;
+                position:relative;
+                margin:0 auto;
+                font-family:Verdana, Geneva, sans-serif;
+                color:#FF4500;
+                font-size:12px;
+                font-weight:bold;
+                top:45px;
+                text-align:center;
+                clear:both;
+                display:block;
+                z-index: 3;
+}
+
+#fbCredit{
+	background-image:url(../images/facebookCredit.png);
+	width:34px;
+	height:26px;
+	position:absolute;
+	margin-top:70px;
+	margin-left:150px;
+	cursor:pointer;
+	z-index: 3;
+}
+#containerAyuda{
+	width:760px;
+	height:600px;
+	margin:0 auto;
+	position:relative;
+	background-color:#f3f3f3; 
+	left:-20px;
+	top:-59px;
+}
+
+.ie8 #containerAyuda{
+	width:760px;
+	height:600px;
+	margin:0 auto;
+	position:relative;
+	background-color:#f3f3f3; 
+	left:-20px;
+	top:-649px;
+}
+.ie7 #containerAyuda{
+	width:760px;
+	height:600px;
+	margin:0 auto;
+	position:relative;
+	background-color:#f3f3f3; 
+	left:-20px;
+	top:-649px;
+}
+.ie9 #containerAyuda{
+	width:760px;
+	height:600px;
+	margin:0 auto;
+	position:relative;
+	background-color:#f3f3f3; 
+	left:-20px;
+	top:-649px;
+}
+
+#containerAyuda a{
+	color:#f26522;
+}
+
+#headerAyuda{
+	background-image:url(../images/header.png);
+	background-repeat:no-repeat;
+	width:929px;
+	height:187px;
+	margin:0 auto;
+	background-color:#f3f3f3; 
+}
+
+#side-BarAyuda{
+	width:230px;
+	height:400px;
+	float:left;
+	margin:10px 50px 10px 50px;
+	position: absolute;
+	left:0px;
+	background-color:#f3f3f3; 
+}
+
+#contentAyuda{
+	width:400px;
+	height:400px;
+	float:left;
+	margin:10px 0 10px 0;
+	position:absolute;
+	right:0px;
+	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#4a4a4a;
+	background-color:#f3f3f3; 
+}
+
+#contentAyuda p{
+	width:65%;
+	background-color:#f3f3f3; 
+}
+
+#contentAyuda span{
+	font-size:18px;
+	font-weight:bold;
+	color:#f26522;
+	background-color:#f3f3f3; 
+}
+#closeAyuda{
+	background-image:url(../images/cancelar.png);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	width:20px;
+	height:20px;
+	cursor:pointer;
+	top:0px;
+	left:740px;
+	position:absolute;
+}
+#closeAyudaFake{
+	background-image:url(../images/cancelar.png);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	width:20px;
+	height:20px;
+	cursor:pointer;
+	top:0px;
+	left:740px;
+	position:absolute;
+}
+h1{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	border-bottom:#ff6c00 2px solid;
+	color:#ff6c00;
+	width:90%;
+	margin:10px auto;
+	font-weight:bold;
+}
+
+#content-wrapper #data-wrapper a{
+	display:block;
+	height:100%;
+	width:100%;
+	text-decoration:none;
+}
+
+#content-wrapper{
+	background-image:url(../images/background.png); 
+	background-repeat:no-repeat; 
+	width:732px; 
+	height:569px;
+	
+	/*display:none;*/
+	position:fixed;  
+	_position:absolute; /* hack for internet explorer 6*/   
+	z-index:2; 
+}
+
+#data-wrapper{
+	width:675px;
+	height:370px;
+	overflow:auto;
+	position:relative;
+	margin:0px auto 110px auto;
+	top:115px;
+  left:-4px;
+}
+
+.message-wrapper{
+	background-image:url(../images/mensajeBg.png);
+	background-repeat:no-repeat;
+	width:596px;
+	height:76px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+.img-wrapper{
+	margin-left:20px;
+	margin-top:13px;
+	margin-right:15px;
+	float:left;
+}
+
+.img-wrapper img{
+	margin-right:5px;
+}
+
+.message-Info{
+	font-size:12px;
+	color:#076200;
+	font-weight:bold;
+	width:400px;
+	top:15px;
+	position:relative;
+	padding-left:20px;
+	min-height:50px;
+}
+
+.btn-wrapperAceptar{
+	background-image:url(../images/btnsAceptar.png);
+	background-repeat:no-repeat;
+	background-position: 0 -2px;
+	width:134px;
+	height:38px;
+	float:right;
+	margin-top:-25px;
+	margin-right:35px;
+}
+
+.btn-wrapperAceptar:hover{
+	background-position: 0 -40px;;
+	height:38px;
+}
+
+.btn-wrapperCancelar{
+	background-image:url(../images/cancelar.png);
+	background-repeat:no-repeat;
+	background-position:0 -2px;
+	width:20px;
+	height:17px;
+	float:right;
+	margin-right:-153px;
+	margin-top:-45px;
+}
+
+.btn-wrapperCancelar:hover{
+	background-position:0 -19px;
+}
+
+#button-wrapper{
+	width:620px;
+	height:60px;
+	margin:0 auto;
+}
+
+#btn-wrapperEnviar{
+	background-image:url(../images/btnsEnviar.png);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	width:157px;
+	height:48px;
+	float:left;
+	margin-left:50px;
+	margin-top:36px;
+}
+
+#btn-wrapperEnviar:hover{
+	height:48px;
+	background-position:0 -48px;
+}
+
+#btn-wrapperListo{
+	background-image:url(../images/btnsListo.png);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	width:159px;
+	height:48px;
+	float:right;
+	margin-right:60px;
+	margin-top:36px;
+}
+
+#btn-wrapperListo:hover{
+	height:48px;
+	background-position:0 -48px;
+}
+#footer {
+	width: 760px;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	border-top: 1px dotted #f27221;
+	padding: 10px;
+	text-align: center;
+	top: 910px;
+	position:absolute;
+}
+#footer a {
+	color: #f27221;
+	text-decoration: none;
+	display: inline;
+	width: auto;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+#footer a:hover {
+	text-decoration: underline;
+	color: #f27221;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+
+
+
+#amigosFb 
+{
+	background-image:url(../images/pestanas.png);
+	background-repeat:no-repeat;
+	position:absolute;
+	width:155px;
+	height:30px;
+	z-index: 0;
+	left:315px;
+	top:70px;
+}
+#amigosCh 
+{
+	background-image:url(../images/pestanas.png);
+	background-repeat:no-repeat;
+	background-position: -153px 0px;
+	position:absolute;
+	width:155px;
+	height:30px;
+	top:70px;
+	left:465px;
+	z-index: 0;
+}
+#amigosFb a
+{
+	background-image:url(../images/pestanas.png);
+	background-repeat:no-repeat;
+	position:absolute;
+	width:155px;
+	left:310px;
+	top:70px;
+
+}
+#amigosCh a
+{
+	background-image:url(../images/pestanas.png);
+	background-repeat:no-repeat;
+	position:absolute;
+	width:100px;
+}
+#amigosFb a:hover
+{
+	background-image:url(../images/pestanas.png);
+	background-repeat:no-repeat;
+	position:absolute;
+	width:155px;
+}
+
+#amigosCh a:hover
+{
+	background-image:url(../images/pestanas.png);
+	background-repeat:no-repeat;
+	position:absolute;
+	width:155px;
+	
+}
+#sendEstampas
+{
+	background-image:url(../images/panelPrincipal-wishlist.png);
+	background-repeat:no-repeat;
+	position:absolute;
+	width:746px;
+  height:534px;
+  left:10px;
+  top:150px;	
+}
+#envEstampas
+{
+  background-image:url(../images/sprite-btnEnviarEstampa.png);
+	background-repeat:no-repeat;
+	background-position: 0px 0px;
+  width:155px;
+  height:38px;
+  position:absolute;
+  left: 420px;
+  top: 475px;
+}
+#canEstampas
+{
+  background-image:url(../images/cancelarBtn.png);
+	background-repeat:no-repeat;
+	background-position: 0px 0px;
+  width:134px;
+  height:38px;
+  position:absolute;
+  left:580px;
+  top:475px;
+}
+#aEstampas
+{
+    font-family: Verdana,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    height: 33px;
+    left: 275px;
+    position: absolute;
+    top: 42px;
+    width: 220px;
+    color: #fcff00;
+    text-shadow: #fee4c3 0 1px 0;
+}
+#nEstampas
+{
+    font-family: Verdana,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    height: 33px;
+    left: 275px;
+    position: absolute;
+    top: 100px;
+    width: 220px;
+    color: #fcff00;
+    text-shadow: #fee4c3 0 1px 0;
+}
+#textEstampas
+{
+   font-family: Verdana,sans-serif;
+   font-size: 14px;
+   font-weight: bold;
+   position:absolute;
+   top:130px;
+   height:0px;
+   width:750px;
+   color: #822036;
+   text-shadow: #fee4c3 0 1px 0;
+}
+#tabNotificaciones
+{
+  background-image:url(../images/tabApagada.png);
+	background-repeat:no-repeat;
+  width:141px;
+  height:37px;
+  position:absolute;
+  left:30px;
+  top:56px;
+}
+#tabRegalos
+{
+  background-image:url(../images/tabApagada.png);
+	background-repeat:no-repeat;
+  width:141px;
+  height:37px;
+  position:absolute;
+  left:170px;
+  top:56px;
+}
+#tabProduccion
+{
+  background-image:url(../images/tabApagada.png);
+	background-repeat:no-repeat;
+  width:141px;
+  height:37px;
+  position:absolute;
+  left:310px;
+  top:56px;
+}
+#tabRetos
+{
+  background-image:url(../images/tabApagada.png);
+	background-repeat:no-repeat;
+  width:141px;
+  height:37px;
+  position:absolute;
+  left:450px;
+  top:56px;
+}
+.tabsBandejaTexto
+{
+   font-family: Verdana,sans-serif;
+   font-size: 11px;
+   font-weight: bold;
+   position:relative;
+   top:10px;
+   color: #692b00;
+   	cursor:pointer;
+}
+.messageInboxBack
+{
+  background-image:url(../images/bkgSolicitud.png);
+	background-repeat:no-repeat;
+  width:641px;
+  height:72px;
+  position:relative;
+  margin-top: 20px;
+}
+
+.nadaInbox
+{
+    border-bottom: 2px solid #FF6C00;
+    color: #FF6C00;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 5px;;
+    width: 94%;
+}
+.imagenInboxA
+{
+    background-repeat:no-repeat;
+    width:55px;
+    height:55px;
+    position:relative;
+    left:15px;
+    top:8px;
+}
+.imagenInboxB
+{
+    background-repeat:no-repeat;
+    width:55px;
+    height:55px;
+    position:relative;
+    left:75px;
+    top:-48px;
+}
+.imagenImgInboxA
+{
+    width:55px;
+    height:55px;   
+}
+.imagenImgInboxB
+{
+    width:55px;
+    height:55px;
+}
+.inboxTexto
+{
+    color: #076200;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    height: 55px;
+    left: 145px;
+    position: relative;
+    top: -46px;
+    width: 315px;
+}
+.inboxTexto2
+{
+    color: #076200;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    height: 55px;
+    left: 145px;
+    position: relative;
+    top:-102px;
+    width: 315px;
+}
+.inboxAceptar
+{
+    background-image: url("../images/btnsAceptar.png");
+    background-repeat: no-repeat;
+    height: 39px;
+    left: 470px;
+    position: relative;
+    top: -150px;
+    width: 134px;
+    cursor:pointer;
+}
+.inboxCancelar
+{
+    background-image: url("../images/cancelar.png");
+    background-repeat: no-repeat;
+    height: 20px;
+    left: 610px;
+    position: relative;
+    top: -178px;
+    width: 20px;
+    cursor:pointer;
+}
+.contInbox
+{
+    background-image: url("../images/globoNotificacion.png");
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    height: 35px;
+    position: absolute;
+    top: 40px;
+    width: 34px;
+    z-index: 2;
+    
+}
+.numInbox
+{
+    font-weight: bold;
+    height: auto;
+    left: 0;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    top: 9px;
+    width: auto;
+    text-shadow: #b10808 0 -1px 0;
+    font: bold 11px Verdana, sans-serif;
+
+}
+#contNotificaciones
+{
+    left:150px;
+}
+#contRegalos
+{
+  left:290px;
+}
+#contProduccion
+{
+  left:430px;
+}
+#contRetos
+{
+  left:570px;
+}
+
+.inboxAceptar2 {
+    background-image: url("../images/btnsAceptar.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+    height: 39px;
+    left: 470px;
+    position: relative;
+    top: -95px;
+    width: 134px;
+}
+
+.inboxCancelar2 {
+    background-image: url("../images/cancelar.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+    height: 20px;
+    left: 610px;
+    position: relative;
+    top: -128px;
+    width: 20px;
+}
+
+#transTortas 
+{
+    background-image: url("../images/ventana3Bkg.png");
+    background-repeat: no-repeat;
+    display: none;
+    height: 587px;
+    left: 40px;
+    position: absolute;
+    top: 140px;
+    width: 683px;
+    z-index: 4;
+}
+
+#nombreTransTortas 
+{         
+   left: 306px;
+    position: relative;
+    top: 130px;
+}
+
+#formTransTortas
+{
+    height: 150px;
+    left: 305px;
+    overflow: auto;
+    position: relative;
+    top: 150px;
+    width: 335px;
+}
+#seleccionTransTortas
+{
+   height: 100px;
+    left: 305px;
+    position: relative;
+    top: 170px;
+    width: 335px;
+}
+#seleccionTransTortas li a {
+	background-image:url(../images/selectedIcon.png);
+	background-repeat: no-repeat;  
+	background-position: 0 3px;
+	padding-left: 15px;
+	text-decoration:none;
+	color:#666666;
+}
+
+
+#seleccionTransTortas li a:hover {
+	background-position: 0 -14px;
+	padding-left: 15px;
+	text-decoration:none;
+	color:#666666;
+}
+
+#transAbrir
+{
+      background-image: url("../images/btnContinuar.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    float: left;
+    height: 38px;
+    left: 510px;
+    position: relative;
+    top: 210px;
+    width: 136px;
+}
+#transCancelar
+{
+    background-image: url("../images/cancelarBtnOver.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    float: left;
+    height: 38px;
+    left: 210px;
+    position: relative;
+    top: 210px;
+    width: 136px;
+}
+#sinoTortas
+{
+    background-image: url("../images/paso1Bkg.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    float: left;
+    height: 165px;
+    left: 210px;
+    position: absolute;
+    top: 320px;
+    width: 390px;
+    z-index: 999999999;
+    display:none;
+}
+#sinoAceptarBtn
+{
+    background-image: url("../images/btnSi.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    float: left;
+    height: 38px;
+    left: 210px;
+    position: relative;
+    top: 100px;
+    width: 136px;
+}
+#sinoCancelarBtn
+{
+    background-image: url("../images/btnNo.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    float: left;
+    height: 38px;
+    left: -90px;
+    position: relative;
+    top: 100px;
+    width: 136px;
+}
+#sinoCerrar
+{
+    background-image: url("../images/cancelar.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 20px;
+    left: 360px;
+    position: relative;
+    top: -10px;
+    width: 23px;
+}
+#sinoTxt
+{
+    color: #FFFF00;
+    font-family: Verdana,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    height: 16px;
+    left: 165px;
+    position: relative;
+    text-align: center;
+    top: 42px;
+    width: 40px;
+    
+}
+#transTortas2
+{
+    background-image: url("../images/ventana2Bkg.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 522px;
+    left: 210px;
+    position: absolute;
+    top: 140px;
+    width: 373px;
+    z-index: 1;
+    display:none;
+}
+
+#transReg 
+{
+    cursor: pointer;
+    background-image: url("../images/cancelarBtnOver.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 38px;
+    left: 30px;
+    position: relative;
+    top: 420px;
+    width: 137px;
+    z-index: 9999999;
+}
+#transTCont {
+    cursor: pointer;
+    background-image: url("../images/btnContinuar.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 38px;
+    left: 210px;
+    position: relative;
+    top: 460px;
+    width: 135px;
+    z-index: 9999999;
+}
+#transAna {
+     background-image: url("../images/btnAnadeAmigo.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    height: 38px;
+    left: 130px;
+    position: relative;
+    top: 320px;
+    width: 134px;
+    z-index: 9999999;
+}
+#transCerrar {
+    background-image: url("../images/cancelar.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    height: 20px;
+    left: 340px;
+    position: relative;
+    top: -180px;
+    width: 23px;
+}
+#transTotal
+{
+    color: #1E600C;
+    font-size: 14px;
+    font-weight: bold;
+    left: 150px;
+    position: relative;
+    top: -25px;
+    width: 40px;
+}
+#transTotalNum
+{
+    color: #FF5400;
+    font-size: 14px;
+    font-weight: bold;
+    height: 0;
+    left: 228px;
+    position: relative;
+    text-align: center;
+    top: -42px;
+    width: 0;
+}
+#transParaTi
+{
+    color: #1E600C;
+    font-size: 14px;
+    font-weight: bold;
+    height: 20px;
+    left: 153px;
+    position: relative;
+    top: -14px;
+    width: 60px;
+ }
+#transParaTiNum
+{
+    color: #FA8039;
+    font-size: 14px;
+    font-weight: bold;
+    height: 20px;
+    left: 220px;
+    position: relative;
+    text-align: center;
+    top: -35px;
+    width: 25px;
+    z-index: 1;
+ }
+#transParaTiNumFondo
+{
+    background-image: url("../images/inputField.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 22px;
+    left: 211px;
+    position: relative;
+    top: -57px;
+    width: 47px;
+    z-index: 0;
+} 
+#transTortas3 {
+    background-image: url("../images/ventan4Bkg.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 346px;
+    left: 180px;
+    position: absolute;
+    top: 250px;
+    width: 433px;
+    z-index: 999999;
+    display:none;
+}
+
+#traTor3Cerrar
+{
+   background-image: url("../images/cancelar.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 20px;
+    left: 400px;
+    position: relative;
+    top: 10px;
+    width: 22px;
+    z-index: 999999;
+    cursor:pointer;
+}
+#transCerrar1
+{
+    background-image: url("../images/cancelar.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    height: 20px;
+    left: 640px;
+    position: relative;
+    top: -250px;
+    width: 22px;
+    z-index: 999999;
+}
+#traTor3Regresar
+{
+    background-image: url("../images/btnRegresar.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 40px;
+    left: 70px;
+    position: relative;
+    top: 260px;
+    width: 136px;
+    z-index: 999999;
+    cursor:pointer;
+}
+#traTor3Confirmar
+{
+   background-image: url("../images/btnConfirmar.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 40px;
+    left: 230px;
+    position: relative;
+    top: 220px;
+    width: 136px;
+    z-index: 999999;
+    cursor:pointer;
+}
+#traTor3Txt
+{
+    color: #FFFF00;
+    font-family: Verdana,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    height: 16px;
+    left: 190px;
+    position: relative;
+    text-align: center;
+    top: -85px;
+    width: 40px
+}
+#transAmg
+{
+    height: 200px;
+    left: 39px;
+    position: relative;
+    top: -64px;
+    width: 300px;
+}
+
+#transAmg li a {
+	background-image:url(../images/selectedIcon.png);
+	background-repeat: no-repeat;  
+	background-position: 0 3px;
+	padding-left: 15px;
+	text-decoration:none;
+	color:#666666;
+}
+
+
+#transAmg li a:hover {
+	background-position: 0 -14px;
+	padding-left: 15px;
+	text-decoration:none;
+	color:#666666;
+}
+
+.transTorta
+{
+    background-image: url("../images/torta.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 20px;
+    margin-left: 152px;
+    margin-top: -16px;
+    position: relative;
+    width: 28px;
+    z-index: 999999;
+}
+.transNum
+{
+    background-image: url("../images/inputField.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 22px;
+    margin-left: 205px;
+    margin-top: -22px;
+    position: relative;
+    width: 47px;
+    z-index: 999999;
+}
+.flechaAbajo
+{
+    background-image: url("../images/flechaDisminuye.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 7px;
+    margin-left: 272px;
+    margin-top: 8px;
+    position: relative;
+    width: 10px;
+    z-index: 999999;
+}
+.flechaArriba
+{
+     background-image: url("../images/flechaAumento.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 7px;
+    margin-left: 272px;
+    margin-top: -25px;
+    position: relative;
+    width: 12px;
+    z-index: 999999;
+}
+
+.flechas
+{
+    height: 14px;
+    margin-left: 2px;
+    margin-top: 5px;
+    width: 12px;
+}
+.containerTrans
+{
+    height: 14px;
+    margin-left: 6px;
+    margin-top: 25px;
+    width: 212px;
+
+}
+.containerTrans2
+{
+    height: 14px;
+    margin-left: 6px;
+    margin-top: 25px;
+    width: 212px;
+
+}
+.transTorta2
+{
+   background-image: url("../images/torta.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 20px;
+    margin-left: 172px;
+    margin-top: -16px;
+    position: relative;
+    width: 28px;
+    z-index: 999999;
+}
+.transNum2
+{
+    background-image: url("../images/inputField.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 22px;
+    margin-left: 235px;
+    margin-top: -22px;
+    position: relative;
+    width: 47px;
+    z-index: 999999;
+}
+
+#transTortas3Container
+{
+    height: 190px;
+    left: 65px;
+    position: relative;
+    top: -40px;
+    width: 310px;
+}
+#transTortas3Container li a {
+	background-position: 0 3px;
+	padding-left: 15px;
+	text-decoration:none;
+	color:#666666;
+}
+
+
+#transTortas3Container li a:hover {
+	background-position: 0 -14px;
+	padding-left: 15px;
+	text-decoration:none;
+	color:#666666;
+}
+.numTrans
+{
+    color: #FAA161;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-top: 0;
+    text-align: center;
+}
